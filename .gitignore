@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.env
+.venv/
+env/
+
+# Editors
+.idea/
+.vscode/
+
+# Build output
+build/
+dist/
+*.pkg
+*.pyz
+
+# Logs and generated artifacts
+logs/
+output/
+tmp_video_frames/
+
+# Local runtime/data folders
+data/benchmarks/
+data/action_evidence/
+data/dom_live_learning/
+data/worker_learning/
+data/worker_learning_smoke/
+data/worker_learning_test/
+data/worker_sessions/
+data/n8n_runtime/
+data/n8n_sidecar/
+data/guide_videos/
+
+# Local tool payloads
+tools/ffmpeg/
+
+# OS noise
+Thumbs.db
+Desktop.ini

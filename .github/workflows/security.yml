@@ -1,0 +1,54 @@
+name: Security Checks
+
+on:
+  push:
+    branches: ["main", "master", "codex/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  baseline-security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Security Tooling
+        run: |
+          python -m pip install --upgrade pip
+          pip install bandit pip-audit
+
+      - name: Verify Legal Files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          required = [
+              "LICENSE.md",
+              "EULA.md",
+              "NOTICE.md",
+              "THIRD_PARTY_NOTICES.md",
+              "SECURITY.md",
+              "CONTRIBUTING.md",
+              ".env.example",
+              ".gitignore",
+          ]
+          missing = [name for name in required if not Path(name).exists()]
+          if missing:
+              raise SystemExit(f"Missing required repo files: {missing}")
+          print("Legal/security file check passed.")
+          PY
+
+      - name: Run Bandit
+        continue-on-error: true
+        run: |
+          bandit -r app automation core distributed installer ui vision ai environment plugins tests -x env,dist,build
+
+      - name: Run pip-audit
+        continue-on-error: true
+        run: |
+          pip-audit -r requirements.txt

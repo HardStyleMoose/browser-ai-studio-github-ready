@@ -1,0 +1,140 @@
+{
+  "version": 2,
+  "profile_key": "legends_of_mushroom",
+  "game": "Legends of Mushroom",
+  "source": {
+    "type": "youtube",
+    "video_id": "O3Kc73oOJM8",
+    "title": "Top 10 Tips To Grow Powerful In Legend Of Mushroom",
+    "url": "https://www.youtube.com/watch?v=O3Kc73oOJM8",
+    "uploader": "Worthy Prince",
+    "upload_date": "2024-03-28",
+    "bundle": "data/guide_videos/legends_of_mushroom_guide_bundle.zip"
+  },
+  "sources": [
+    {
+      "type": "youtube",
+      "video_id": "O3Kc73oOJM8",
+      "title": "Top 10 Tips To Grow Powerful In Legend Of Mushroom",
+      "url": "https://www.youtube.com/watch?v=O3Kc73oOJM8",
+      "uploader": "Worthy Prince",
+      "upload_date": "2024-03-28",
+      "role": "advanced progression",
+      "bundle": "data/guide_videos/legends_of_mushroom_guide_bundle.zip"
+    },
+    {
+      "type": "youtube",
+      "video_id": "_KQqkVTsPM8",
+      "title": "Beginner's Guide for new Players in 2026 - Legend of Mushroom",
+      "url": "https://www.youtube.com/watch?v=_KQqkVTsPM8",
+      "uploader": "grumpygojo",
+      "upload_date": "2026-02-01",
+      "role": "beginner onboarding",
+      "bundle": "data/guide_videos/legends_of_mushroom_beginner_bundle.zip",
+      "local_video": "data/guide_videos/Beginner’s Guide for new Players in 2026 - Legend of Mushroom [_KQqkVTsPM8].mp4"
+    }
+  ],
+  "summary": "Combined guide-informed worker profile for Legends of Mushroom that prioritizes early lamp focus, PvE-forward class and skill progression, gear and relic upgrades, pass and rush reward claims, manor and daily loops, and efficient recurring resource collection while avoiding low-value early gem spending.",
+  "priority_keywords": [
+    "claim",
+    "collect",
+    "reward",
+    "free",
+    "gift",
+    "bonus",
+    "event",
+    "rush",
+    "battle pass",
+    "pass",
+    "daily",
+    "manor",
+    "assistant",
+    "class",
+    "skill",
+    "gear",
+    "stat",
+    "awakening",
+    "crystal",
+    "pink soul",
+    "relic",
+    "crop",
+    "harvest",
+    "family",
+    "guild",
+    "workteam",
+    "spinner",
+    "soul",
+    "stone",
+    "mount",
+    "upgrade",
+    "level",
+    "campaign",
+    "challenge",
+    "boss"
+  ],
+  "avoid_keywords": [
+    "gacha",
+    "summon 10",
+    "buy 10",
+    "draw 10",
+    "skill summon",
+    "pal summon",
+    "gem summon",
+    "buy pack",
+    "top up",
+    "recharge",
+    "purchase",
+    "bundle",
+    "vip",
+    "special offer",
+    "limited offer",
+    "monthly card",
+    "subscription"
+  ],
+  "tips": [
+    {
+      "title": "Touch Nothing But The Lamp",
+      "summary": "Early progression should focus on lamp taps and gear progression instead of opening random menus or detouring into side systems."
+    },
+    {
+      "title": "Save Your Gems",
+      "summary": "Avoid spending gems on early gacha pulls for skills or pals and keep premium currency for stronger long-term value."
+    },
+    {
+      "title": "Crops",
+      "summary": "Revisit crop and building interactions regularly, including harvest opportunities and related reward collection."
+    },
+    {
+      "title": "Rush Events",
+      "summary": "Prioritize rush event surfaces and event-side reward rails when they are active or claimable."
+    },
+    {
+      "title": "Soul Stones",
+      "summary": "Watch for soul stone related rewards and progression surfaces when they appear."
+    },
+    {
+      "title": "Battle Passes",
+      "summary": "Claim battle pass and right-rail event rewards aggressively because they provide efficient value."
+    },
+    {
+      "title": "Active Family",
+      "summary": "Check family or guild reward surfaces when visible because social systems drive recurring resource gain."
+    },
+    {
+      "title": "PvE-First Beginner Route",
+      "summary": "Favor beginner-friendly PvE progression surfaces, campaign rewards, and class setups that push stage progression faster instead of spreading actions across too many side menus early."
+    },
+    {
+      "title": "Skills, Gear, And Stats",
+      "summary": "Watch for skill, gear, stat, and relic leveling surfaces regularly because those are high-value beginner upgrades called out in the beginner guide."
+    },
+    {
+      "title": "Passes, Rushes, And Spinner Value",
+      "summary": "Pass, rush, rush-shop, and spinner surfaces are worth periodic claim and review passes when they show rewards or progression markers."
+    },
+    {
+      "title": "Daily Loops And Manor Assistant",
+      "summary": "Cycle dailies, manor assistant, harvest, and workteam-related surfaces when they appear because they provide consistent passive progression."
+    }
+  ]
+}

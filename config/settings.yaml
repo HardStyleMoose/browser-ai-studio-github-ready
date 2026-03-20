@@ -1,0 +1,98 @@
+appearance:
+  theme: terminal
+cluster:
+  auto_learning: true
+  browser_dom_drive_mode: legacy
+  browser_prewarm_enabled: true
+  control_preview_target_fps: 15
+  default_workers: 1
+  dom_confirmation_required: true
+  dom_evidence_weight: 1.3
+  dom_live_cooldown_ms: 850
+  dom_live_max_repeat_attempts: 3
+  gpu_acceleration_enabled: true
+  preview_target_fps: 10
+  watch_reward_ads: false
+  worker_cpu_limit_percent: 200
+  worker_memory_gb: 4.0
+  worker_target_fps: 30
+general:
+  default_page: Training
+  start_on_launch: true
+human_behavior:
+  break_duration_seconds: 2
+  break_interval_seconds: 60
+  enable_breaks: true
+  enable_random_delays: true
+  human_keyboard: true
+  human_mouse: true
+model:
+  algorithm: auto
+  evaluation_episodes: 5
+  policy: auto
+  save_path: models/ppo_model
+  use_action_masking: true
+training:
+  browser_url: https://lom.joynetgame.com
+  desktop_exe: C:/Games/YourGame/game.exe
+  desktop_window_title: ''
+  exploration_rate: 0.2
+  game_mode: browser
+  max_steps: 5000
+  region:
+    height: 720
+    width: 1280
+    x: 0
+    y: 0
+vision:
+  detection_confidence: 0.8
+vision_lab:
+  acceleration: auto
+  backend: auto
+  benchmark_runs: 20
+  custom_presets: {}
+  dataset_dir: datasets/vision_lab
+  heatmap_decay: 0.92
+  heatmap_radius: 42
+  interval_ms: 700
+  obs_host: localhost
+  obs_port: 4455
+  obs_source: ''
+  overlay_boxes: true
+  overlay_labels: true
+  overlay_ocr: false
+  selected_preset: Balanced
+  session_history_limit: 30
+  source_mode: region
+  target_limit: 5
+guide_coach:
+  active_calibration_profile_key: lom.joynetgame.com|browser|chromium
+  calibration_host: lom.joynetgame.com
+  calibration_profiles: {}
+  calibration_runtime: chromium
+  checklist_progress: {}
+  last_replay_path: ''
+  last_label_outcome: missed
+  last_label_target_type: claim
+  sample_interval_seconds: 1.5
+  show_focus_masks: true
+provider_hub:
+  auto_refresh_catalog: false
+  last_category: all
+  last_search: ''
+  last_selected_profile: ''
+n8n:
+  api_key_env_var: N8N_API_KEY
+  auto_start: false
+  data_dir: data/n8n_runtime/user_data
+  editor_mode: embedded
+  editor_url: http://localhost:5678
+  install_dir: data/n8n_runtime/node_runtime
+  last_template: provider_summary
+  last_installed_version: ''
+  mode: node_managed_local
+  open_editor_externally: false
+  port: 5678
+action_evidence:
+  default_confirmation: advanced
+  export_include_dom: true
