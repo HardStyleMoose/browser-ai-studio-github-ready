@@ -9,6 +9,14 @@ BrowerAI Studio Labs is a desktop automation and training workspace for browser 
 
 This repository is public for source visibility and evaluation, but it is **not open source**. Use is governed by the proprietary terms in [LICENSE.md](LICENSE.md), and packaged installs are governed by [EULA.md](EULA.md).
 
+## Screenshots
+
+![Window Branding](docs/screenshots/window_branding.png)
+
+| Training | Cluster | Settings |
+| --- | --- | --- |
+| ![Training Page](docs/screenshots/training_terminal.png) | ![Cluster Page](docs/screenshots/cluster_terminal.png) | ![Settings Page](docs/screenshots/settings_terminal.png) |
+
 ## Current App Sections
 
 - `Training`
