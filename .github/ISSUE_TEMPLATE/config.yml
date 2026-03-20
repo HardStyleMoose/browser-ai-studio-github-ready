@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reporting
+    url: https://github.com/HardStyleMoose/browser-ai-studio-github-ready/blob/main/SECURITY.md
+    about: Please follow the private disclosure guidance in SECURITY.md for vulnerabilities or secret exposure reports.
+  - name: Licensing and usage terms
+    url: https://github.com/HardStyleMoose/browser-ai-studio-github-ready/blob/main/LICENSE.md
+    about: Review the proprietary source-visible terms before opening licensing questions.

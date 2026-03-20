@@ -1,5 +1,10 @@
 # BrowerAI Studio Labs
 
+[![Release](https://img.shields.io/github/v/release/HardStyleMoose/browser-ai-studio-github-ready?display_name=tag)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/releases)
+[![CodeQL](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/codeql.yml/badge.svg)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/codeql.yml)
+[![Security Checks](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/security.yml/badge.svg)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/security.yml)
+[![License: Source-Visible](https://img.shields.io/badge/license-source--visible-orange)](LICENSE.md)
+
 BrowerAI Studio Labs is a desktop automation and training workspace for browser and desktop games. It combines a PySide6 UI, a visual behavior graph editor, screen capture, OCR, model/training controls, plugin support, cluster-style worker management, and a safe vision-analysis module in one application.
 
 This repository is public for source visibility and evaluation, but it is **not open source**. Use is governed by the proprietary terms in [LICENSE.md](LICENSE.md), and packaged installs are governed by [EULA.md](EULA.md).

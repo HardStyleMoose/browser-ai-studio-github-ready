@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a reproducible bug in the app, installer, or packaged runtime.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. Please include enough detail to reproduce the issue safely.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - App UI
+        - Installer
+        - Cluster / Workers
+        - Vision Lab
+        - Guide Coach
+        - Provider Hub
+        - n8n Hub
+        - Packaging / Release
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Release tag, installer version, or commit hash if known.
+      placeholder: v0.1.0-github-ready
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug clearly and include the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: |
+        Windows version:
+        Python version:
+        Source run or packaged EXE:
+        GPU / OCR / browser runtime details:
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, screenshots, or traces
+      description: Please redact secrets or tokens before pasting.

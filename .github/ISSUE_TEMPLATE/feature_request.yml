@@ -1,0 +1,45 @@
+name: Feature request
+description: Suggest an improvement for the app, docs, workflow, or release process.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What pain point or use case would this improve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the feature or workflow you want to see.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - App UI
+        - Installer
+        - Cluster / Workers
+        - Vision Lab
+        - Guide Coach
+        - Provider Hub
+        - n8n Hub
+        - Packaging / Release
+        - Documentation
+        - Other
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds or competing approaches you already tried?
+  - type: textarea
+    id: context
+    attributes:
+      label: Extra context
+      description: Links, screenshots, or mockups if helpful.

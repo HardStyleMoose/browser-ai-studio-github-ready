@@ -1,0 +1,28 @@
+changelog:
+  categories:
+    - title: App And UI
+      labels:
+        - ui
+        - app
+    - title: Workers And Performance
+      labels:
+        - workers
+        - performance
+    - title: Vision And Diagnostics
+      labels:
+        - vision
+        - diagnostics
+    - title: Packaging And Release
+      labels:
+        - packaging
+        - release
+    - title: Security And Legal
+      labels:
+        - security
+        - legal
+    - title: Documentation
+      labels:
+        - documentation
+    - title: Other Changes
+      labels:
+        - "*"
