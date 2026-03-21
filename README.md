@@ -11,7 +11,7 @@ This repository is public for source visibility and evaluation, but it is **not 
 
 ## Screenshots
 
-![Window Branding](docs/screenshots/window_branding.png)
+![Main App Window](docs/screenshots/window_branding.png)
 
 | Training | Cluster | Settings |
 | --- | --- | --- |
