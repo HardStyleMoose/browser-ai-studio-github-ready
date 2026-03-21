@@ -13,9 +13,12 @@ This repository is public for source visibility and evaluation, but it is **not 
 
 ![Main App Window](docs/screenshots/window_branding.png)
 
+_Main app shell in the default Terminal theme, with the training workspace active._
+
 | Training | Cluster | Settings |
 | --- | --- | --- |
 | ![Training Page](docs/screenshots/training_terminal.png) | ![Cluster Page](docs/screenshots/cluster_terminal.png) | ![Settings Page](docs/screenshots/settings_terminal.png) |
+| Runtime controls, capture region setup, agent stats, and quick-start actions. | Worker status, standby prewarm state, runtime diagnostics, and selected-worker details. | Theme selection, runtime defaults, and application-level configuration controls. |
 
 ## Current App Sections
 
