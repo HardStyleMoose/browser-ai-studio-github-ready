@@ -1,0 +1,23 @@
+# BrowserAI Studio Labs CODEOWNERS
+# This repo currently has a single maintainer. The patterns below are
+# future-proofed so stricter code-owner review can be enabled later
+# without reorganizing ownership coverage.
+
+# Default owner for the repository
+* @HardStyleMoose
+
+# Governance, release, and security-sensitive surfaces
+.github/ @HardStyleMoose
+installer/ @HardStyleMoose
+config/ @HardStyleMoose
+automation/ @HardStyleMoose
+distributed/ @HardStyleMoose
+build_exe.py @HardStyleMoose
+pyinstaller.spec @HardStyleMoose
+installer_wizard.spec @HardStyleMoose
+LICENSE.md @HardStyleMoose
+EULA.md @HardStyleMoose
+NOTICE.md @HardStyleMoose
+THIRD_PARTY_NOTICES.md @HardStyleMoose
+SECURITY.md @HardStyleMoose
+CONTRIBUTING.md @HardStyleMoose
