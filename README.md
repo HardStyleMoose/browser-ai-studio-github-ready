@@ -1,5 +1,7 @@
 # BrowerAI Studio Labs
 
+![README Banner](docs/screenshots/readme_banner.png)
+
 [![Release](https://img.shields.io/github/v/release/HardStyleMoose/browser-ai-studio-github-ready?display_name=tag)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/releases)
 [![CodeQL](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/codeql.yml/badge.svg)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/codeql.yml)
 [![Security Checks](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/security.yml/badge.svg)](https://github.com/HardStyleMoose/browser-ai-studio-github-ready/actions/workflows/security.yml)
@@ -8,6 +10,13 @@
 BrowerAI Studio Labs is a desktop automation and training workspace for browser and desktop games. It combines a PySide6 UI, a visual behavior graph editor, screen capture, OCR, model/training controls, plugin support, cluster-style worker management, and a safe vision-analysis module in one application.
 
 This repository is public for source visibility and evaluation, but it is **not open source**. Use is governed by the proprietary terms in [LICENSE.md](LICENSE.md), and packaged installs are governed by [EULA.md](EULA.md).
+
+## At A Glance
+
+| Build | Run | Review |
+| --- | --- | --- |
+| Visual behavior editing through the graph-based `Behavior Editor` and runtime control surfaces. | Browser and desktop worker orchestration, standby prewarm, PPO controls, and local workflow tooling. | Vision Lab, Guide Coach, OCR review, replay diagnostics, and click-calibration workflows. |
+| Provider Hub for endpoint catalogs and prompt utilities. | Local `n8n` runtime management for workflow orchestration and automation support. | Release hardening, legal docs, integrity manifests, and GitHub security automation. |
 
 ## Screenshots
 
